@@ -1,0 +1,74 @@
+.home-page header {
+    background-image: url(../utils/img/header-img.jpg);
+}
+
+header {
+    background-size: cover;
+    background-position: center;
+}
+
+header h1 {
+    font-size: 5rem;
+}
+
+.home-page header h1,
+.home-page header h2 {
+    text-shadow: 2px 2px 8px #000000;
+}
+
+
+@media only screen and (max-width: 768px) {
+    header h1 {
+        font-size: 4rem;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    header h1 {
+        font-size: 3rem;
+    }
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  width: 5vw;
+  height: 5vw;
+}
+.container-fluid {
+        padding-left: 0;
+        padding-right: 0;
+        
+    }
+    
+.my-class {
+        background: #44D9F9;
+    }
+.my-class1{
+        background: #03045E;
+    }
+.my-class2{
+        background: #CAF0F8;
+    }
+.accordion{
+    max-width: 800px !important;
+    margin: 50px auto;
+    box-shadow: 0 2px 25px 0 rgb(110, 130, 208, .18);
+}
+.accordion-button{
+    background-color: #03045E !important;
+    color: #fff !important;
+    position: relative;
+    box-shadow: none !important;
+}
+
+.accordion-button:active, .accordion-button:focus{
+     border: none mpo !important;
+}
+.accordion-button:hover{
+    background: #000000 !important;
+}
+.accordion-button::after{
+    content: "";
+    background-image: url(../utils/img/keyboard_arrow_down-white.svg) !important;
+}
+
